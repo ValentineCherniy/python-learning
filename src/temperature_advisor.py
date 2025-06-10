@@ -1,7 +1,6 @@
 def main ():
-    temperature = int(input("Enter temperature in Celsius: "))
-
     try:
+        temperature = int(input("Enter temperature in Celsius: "))
         if temperature < 0:
             print("Wear a heavy coat.")
         elif 0 <= temperature <= 10:
