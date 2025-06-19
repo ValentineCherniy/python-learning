@@ -1,0 +1,5 @@
+text = input()
+delimiter = input()
+words_list = text.split()
+word_string = delimiter.join(words_list)
+print(word_string)
